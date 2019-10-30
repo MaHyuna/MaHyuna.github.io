@@ -1,0 +1,141 @@
+@charset 'UTF-8';
+
+$path: '../fonts/';
+
+
+/* 본고딕 */
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url($path + "NotoSansKR-Thin.woff2") format('woff2'), url($path + "NotoSansKR-Thin.woff") format('woff'), url($path + "NotoSansKR-Thin.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url($path + "NotoSansKR-Light.woff2") format('woff2'), url($path + "NotoSansKR-Light.woff") format('woff'), url($path + "NotoSansKR-Light.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url($path + "NotoSansKR-Regular.woff2") format('woff2'), url($path + "NotoSansKR-Regular.woff") format('woff'), url($path + "NotoSansKR-Regular.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	src: url($path + "NotoSansKR-Medium.woff2") format('woff2'), url($path + "NotoSansKR-Medium.woff") format('woff'), url($path + "NotoSansKR-Medium.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	src: url($path + "NotoSansKR-Bold.woff2") format('woff2'), url($path + "NotoSansKR-Bold.woff") format('woff'), url($path + "NotoSansKR-Bold.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 900;
+	src: url($path + "NotoSansKR-Black.woff2") format('woff2'), url($path + "NotoSansKR-Black.woff") format('woff'), url($path + "NotoSansKR-Black.otf") format('opentype');
+}
+
+
+
+@font-face {
+	font-family: 'Lato TR';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Lato TR Hairline'), url($path + "LatoTR-Hairline.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Lato TR';
+	font-style: normal;
+	font-weight: 200;
+	src: local('Lato TR Light'), url($path + "LatoTR-Light.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Lato TR';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Lato TR Regular'), url($path + "LatoTR-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Lato TR';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Lato TR Bold'), url($path + "LatoTR-Bold.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Lato TR';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Lato TR Black'), url($path + "LatoTR-Black.woff") format('woff');
+}
+
+
+
+/* Open Sans */
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Open Sans Light'), url($path + "OpenSans-Light.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Regular'), url($path + "OpenSans-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans Regular'), url($path + "OpenSans-Regular.woff") format('woff');
+}
+
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Open Sans SemiBold'), url($path + "OpenSans-SemiBold.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), url($path + "OpenSans-Bold.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Open Sans ExtraBold'), url($path + "OpenSans-ExtraBold.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Iropke Batang';
+	font-style: normal;
+	font-weight: 400;
+	src: url($path + "IropkeBatangM.eot");
+	src: url($path + "IropkeBatangM.eot?#iefix") format('embedded-opentype'),
+		 url($path + "IropkeBatangM.woff") format('woff'),
+		 url($path + "IropkeBatangM.ttf") format('truetype');
+}

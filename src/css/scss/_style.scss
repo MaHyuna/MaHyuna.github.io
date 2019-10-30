@@ -1,0 +1,44 @@
+@charset 'UTF-8';
+
+// style ============================================================
+$min-width: 1024px;
+
+
+// Color ============================================================
+$mr-color: #414671;
+
+$mr-white: #ffffff;
+$mr-black: #161926;
+
+//  Gray
+//  ───────────────────────────────────
+
+$mr-gray-list: ("0": #F8F8FE,
+	"1": #EFEFF3,
+	"2": #E7E7EB,
+	"3": #D4D4D8,
+	"4": #BDBDBF,
+	"5": #9E9EA2,
+	"6": #6B6C73,
+	"7": #4C4D54,
+	"8": #35363A,
+	"9": #212124);
+
+$mr-gray-0: map-get($mr-gray-list, "0");
+$mr-gray-1: map-get($mr-gray-list, "1");
+$mr-gray-2: map-get($mr-gray-list, "2");
+$mr-gray-3: map-get($mr-gray-list, "3");
+$mr-gray-4: map-get($mr-gray-list, "4");
+$mr-gray-5: map-get($mr-gray-list, "5");
+$mr-gray-6: map-get($mr-gray-list, "6");
+$mr-gray-7: map-get($mr-gray-list, "7");
+$mr-gray-8: map-get($mr-gray-list, "8");
+$mr-gray-9: map-get($mr-gray-list, "9");
+
+//  Color list
+//  ───────────────────────────────────
+
+$mr-color-spectrum: 9;
+
+$mr-color-list: ($mr-gray-list: "gray"	
+);
