@@ -32,9 +32,9 @@ const BlogPost = (props) => {
     <Layout>
       <SEO title={post.frontmatter.title} />
       <div className="post-page-main">
-        <div className="sidebar px-4 py-2">
+        {/* <div className="sidebar px-4 py-2">
           <Sidebar />
-        </div>
+        </div> */}
 
         <div className="post-main">
           <SEO title={post.frontmatter.title} />
