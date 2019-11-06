@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/MaHyuna/MaHyuna.github.io",
   "name": "gatsby-starter-developer-diary",
   "private": true,
   "description": "topic tags and social-media links",
@@ -30,6 +31,7 @@
     "react-icons": "^3.7.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.17.1"
   },
   "keywords": [
@@ -42,7 +44,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
